@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #coding:utf-8
 
 import json
@@ -47,7 +47,7 @@ html = """
       color: #738292
       }
       .pyfanyi_b {
-      
+
       }
     </style>
     <div id="main">
@@ -158,7 +158,7 @@ def getData(string):
     web = []
     if 'web' in data.keys():
         web = data['web']
-    
+
     printHtml(errorCode, query, translation, basic, web)
 
 def searchWord(word):

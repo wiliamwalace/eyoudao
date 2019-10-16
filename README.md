@@ -3,10 +3,15 @@ goldendict词典的有道扩展程序
 基于windows有道词典的5.1.38.3211版本  
 
 ## 安装
+    # Ubuntu
 	sudo apt-get install goldendict
 	sudo apt-get install libxml2-dev
 	sudo apt-get install libxslt1-dev
 
+    # openSUSE
+    sudo zypper in goldendict libxml2-dev libxslt-dev
+
+    # generic
 	git clone https://github.com/Onway/eyoudao.git
 	cd eyoudao
 	sudo ./install

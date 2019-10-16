@@ -1,2 +1,2 @@
 xslt:xslt.c
-	gcc -o xslt xslt.c `xslt-config --cflags --libs`
+	gcc -o xslt xslt.c `xslt-config --cflags --libs` -lxml2
